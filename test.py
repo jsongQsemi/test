@@ -9,7 +9,7 @@ def runner(output='test_result'):
 
 
 def find_tests():
-    return unittest.TestLoader().discover(’test_project.tests')
+    return unittest.TestLoader().discover('test_project.tests')
 
 
 if __name__ == '__main__':
